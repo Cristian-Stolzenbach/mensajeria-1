@@ -23,7 +23,7 @@
       }
       .flex-item-small {
         flex: 1; /* La columna pequeña ocupa 1 fracción del espacio disponible */
-        background-color: rgb(255, 0, 0);
+        background-color: rgb(255, 255, 255);
       }
       .flex-item-large {
         flex: 3; /* La columna grande ocupa 3 fracciones del espacio disponible */
@@ -37,23 +37,32 @@
           <div><style>
             .container {
               display: grid;
-              grid-template-columns: repeat(5, 1fr);
-              gap: 10px;
+              grid-template-columns: repeat(3, 1fr);
+              gap: 1px;
             }
             .column {
-              background-color: #ddd;
-              padding: 0px;
+              background-color: #ffffff;
+              padding: 20px;
             }
             </style>
             </head>
             <body>
             
             <div class="container">
-              <div class="column"><img src="/assets/img/maria.jpg" alt=""></div>
-              <div class="column">Columna 2</div>
-              <div class="column">Columna 3</div>
-              <div class="column">Columna 4</div>
-              <div class="column">Columna 5</div>
+                <style>
+                    #maria {
+                      width: 50px; /* Ajusta esto a la mitad del ancho original de tu imagen */
+                      object-fit: contain;
+                      border-radius: 50%;
+
+                    }
+                  </style>
+
+              <div class="column"><img id="maria" src="/assets/img/maria.jpg" alt=""></div>
+              <div class="column"><strong class="lmaria">María</strong><p class="activa">Activa ahora</p></div>
+              <div class="column"><i class="fas fa-bars" style="color: #808080;"></i></div>
+              
+              
             </div></div>
           <div>Fila 2</div>
           <div>Fila 3</div>
