@@ -15,11 +15,17 @@
     text-align: left;
 }
 
+.activa1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(236, 0, 0);
+}
+
 .activa {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    color: rgb(236, 0, 0);
 }
-
 .button {
     display: flex;
     justify-content: center;
