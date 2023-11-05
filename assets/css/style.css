@@ -9,6 +9,10 @@
     font-size: 16px;
 }
 
+.container{
+    border: 3px solid #e8ebe4;
+}
+
 .lmaria {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -17,14 +21,14 @@
 
 .activa1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: rgb(236, 0, 0);
+    font-size: 14px;
+    color:#BEC1BB;
 }
 
 .activa {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: rgb(236, 0, 0);
+    color: #1B1F21;
 }
 .button {
     display: flex;
@@ -50,4 +54,8 @@
     object-fit: contain;
     border-radius: 50%;
 
+}
+.container2 {
+    
+    border: 2px solid #e8ebe4;
 }
