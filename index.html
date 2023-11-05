@@ -34,7 +34,56 @@
     <div class="flex-container">
       <div class="flex-item-small">
         <div style="display: flex; flex-direction: column">
-          <div><img src="/assets/img/maria.jpg" alt=""><p>María</p>activa ahora<p></p></div>
+          <div><style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .column {
+              float: left;
+              width: 33.33%;
+              padding: 10px;
+            
+            }
+            
+            /* Responsive layout - makes the menu and the content stack on top of each other */
+          /*
+            @media (max-width: 600px) {
+              .column {
+                width: 100%;
+              }
+*/
+            
+            </style>
+            </head>
+            <body>
+            
+           
+            
+            <div class="row">
+              <div class="column" style="background-color:#aaa;">
+                <h2>Columna 1</h2>
+                <p>Algun texto..</p>
+              </div>
+              <div class="column" style="background-color:#bbb;">
+                <h2>Columna 2</h2>
+                <p>Algun texto..</p>
+              </div>
+              <div class="column" style="background-color:#ccc;">
+                <h2>Columna 3</h2>
+                <p>Algun texto..</p>
+              </div>
+              <div class="column" style="background-color:#ccc;">
+                <h2>Columna 4</h2>
+                <p>Algun texto..</p>
+              </div>
+            </div></div>
           <div>Fila 2</div>
           <div>Fila 3</div>
           <div>Fila 4</div>
@@ -51,8 +100,10 @@
           #myImage {
             width: 300px; /* Ajusta esto a la mitad del ancho original de tu imagen */
             object-fit: contain;
+            
           }
         </style>
+        <br><br><br>
         <img id="myImage" src="/assets/img/hand.png" alt="" />
         <!--   font-family: 'Roboto', sans-serif;   -->
 
@@ -64,6 +115,7 @@
         <p class="Presiona">
           redes de contacto para tu empresa o emprendimiento.
         </p>
+        <br><br><br>
       </div>
     </div>
   </body>
