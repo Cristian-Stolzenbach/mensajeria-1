@@ -11,11 +11,30 @@
 
 .lmaria {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     text-align: left;
 }
 
 .activa {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #e8ebe4;
+    padding: 30px;
+}
+
+.nuevo {
+    background-color: #A491D2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: 0px solid #000000;
+    padding: 20px;
+    color: white;
+    width: 300px;
 }
