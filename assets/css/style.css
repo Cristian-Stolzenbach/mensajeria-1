@@ -38,3 +38,10 @@
     color: white;
     width: 300px;
 }
+
+.fjuanita {
+    width: 75px;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
